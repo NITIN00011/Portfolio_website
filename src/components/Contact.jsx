@@ -19,7 +19,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/messages",
+        "https://portfolio-backend-y6q1.onrender.com/",
         {
           method: "POST",
           headers: {
